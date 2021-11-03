@@ -1,0 +1,108 @@
+.space{
+    margin-right: 5px;
+    margin-left:100px;
+}
+.brand{
+    font-family: 'Lobster', cursive;
+}
+.collapse{
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+.fa-cog{
+    color: gray;
+}
+.dropdown-toggle{
+    color: gray;
+}
+.photosquare{
+    width: 500px;
+    height: 250px;
+}
+.photosquare2{
+    width: 300px;
+    height: 250px;
+    margin-left: 80px;
+}
+.photosquare3{
+    margin-top: 5px;
+    width: 500px;
+    height: 250px;
+    
+}
+
+.head{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 50px;
+}
+.feed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(210, 212, 218);
+}
+.post{
+    width: 650px;
+    background-color: white;
+    margin: 20px;
+    align-items: center;
+   
+}
+.posthead{
+    display: flex;
+    width: 650px;
+    height: 50px;
+    border-color: gray;
+}
+strong{
+    width: 520px;
+   margin-left: 20px;
+   margin-top: 9px;
+   font-size: 22px;
+}
+.photo
+img{
+    width: 650px;
+}
+.caption{
+    padding: 10px;
+    border-color: gray;
+    background-color: white;
+}
+p{
+    color: grey;
+    justify-content: flex-end;
+    margin-top: 15px;
+    margin-left: 40px;
+    
+}
+.like{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.form-group{
+    display: flex;
+    justify-content: space-between;
+
+}
+.form-control{
+    width: 550px;
+    border: none;
+
+}
+.fa-heart{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.fa-ellipsis-v{
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.btn-light{
+    margin: 5px;
+}

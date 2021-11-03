@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<head>
+  <title>The Instagram Feed with Bootstrap</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type=" text/css" href="styles.css">
+</head>
+<html>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="space"><i class="fab fa-instagram"></i></div>
+    <a class="navbar-brand brand" href="#">Instagram</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#staticBackdrop">Create a new
+        post</button>
+
+
+      <div class="nav-item dropdown  ">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-expanded="false">
+          <i class="fas fa-cog"></i>
+        </a>
+        <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Log out</a>
+        </div>
+      </div>
+    </div>
+
+
+  </nav>
+  <nav aria-label="Page navigation example" class="margen">
+    <ul class="pagination justify-content-center">
+      <li class="page-item"><a class="page-link text-secondary" href="index.html">
+          <i class="fas fa-th"></i></a>
+      </li>
+      <li class="page-item"><a class="page-link text-secondary" href="feed.html"><i class="fas fa-square"></i></a></li>
+    </ul>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col px-0 ml-1">
+        <img class="photosquare"
+          src="https://w0.peakpx.com/wallpaper/200/69/HD-wallpaper-husky-dogs-puppy-close-up-little-husky-pets-cute-animals-siberian-husky-small-husky-cute-dog-dogs.jpg">
+      </div>
+      <div class="col px-0">
+        <img class="photosquare"
+          src="http://st.depositphotos.com/1010613/3469/i/450/depositphotos_34690901-Woman-With-Laptop.jpg">
+      </div>
+      <div class="col px-0">
+        <img class="photosquare2" src="https://i.pinimg.com/564x/f6/fa/17/f6fa17a8ac6c13f3fcbbd1c0c6d67dea.jpg">
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid seg-ter">
+    <div class="row">
+      <div class="col px-0 ml-1">
+        <img class="photosquare3"
+          src="https://images.fineartamerica.com/images-medium-large-5/pug-on-skateboard-john-daniels.jpg">
+      </div>
+      <div class="col px-0">
+        <img class="photosquare3"
+          src="https://imagenes.20minutos.es/files/image_656_370/uploads/imagenes/2020/01/29/meme-de-una-mujer-gritando-me-dijiste-que-a-un-gato.jpeg">
+      </div>
+      <div class="col px-0">
+        <iframe width="500" height="250" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+        </iframe>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid seg-ter">
+    <div class="row">
+      <div class="col px-0 ml-1">
+        <img class="photosquare3"
+          src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2018/01/280383-cargar-bien-bateria-movil.jpg?itok=A2jxLtwG">
+      </div>
+      <div class="col px-0">
+        <img class="photosquare3"
+          src="https://thumbs.dreamstime.com/b/silly-young-woman-taking-selfie-crazy-young-female-curly-hair-showing-tongue-crossing-eyes-taking-selfie-against-148308134.jpg">
+      </div>
+      <div class="col px-0">
+        <img class="photosquare3" src="https://dam.tuenlinea.com/wp-content/uploads/2020/06/bob-esponja.jpg">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <form>
+
+            <div class="form-group">
+
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
+        </div>
+        <div>
+          <button type="button" class="btn btn-light"><i class="fas fa-camera"></i></button>
+         
+          <button type="button" class="btn btn-light"> <i class="fas fa-map-marker-alt"></i></button>
+
+        </div>
+        <div class="modal-footer">
+  
+          <button type="button" class="btn btn-light" data-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-success">Publish</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
